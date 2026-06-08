@@ -1,0 +1,70 @@
+.page {
+  min-height: 100vh;
+  background: var(--hijau-tua);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background-image: radial-gradient(circle at 30% 50%, rgba(26,122,60,0.15), transparent 50%),
+                    radial-gradient(circle at 70% 30%, rgba(201,150,58,0.08), transparent 40%);
+}
+.card {
+  background: var(--putih);
+  border-radius: var(--r-lg);
+  padding: 52px 44px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 40px 80px rgba(0,0,0,0.3);
+}
+.icon { font-size: 64px; margin-bottom: 20px; display: block; }
+.title {
+  font-family: var(--font-d);
+  font-size: 30px; font-weight: 700;
+  color: var(--hijau-tua); margin-bottom: 12px;
+}
+.desc {
+  font-size: 14px; color: var(--abu); line-height: 1.7;
+  margin-bottom: 28px; font-weight: 300;
+}
+.infoBox {
+  background: var(--hijau-light);
+  border-radius: var(--r-md);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.infoItem { display: flex; align-items: flex-start; gap: 12px; }
+.infoIc {
+  font-size: 20px; width: 32px; height: 32px;
+  background: #fff; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.infoItem strong { display: block; font-size: 12px; font-weight: 600; color: var(--hijau-mid); margin-bottom: 2px; }
+.infoItem span { font-size: 12px; color: #4a5e4e; }
+.hint {
+  font-size: 12px; color: var(--abu); line-height: 1.6; margin-bottom: 24px;
+  padding: 10px 14px; background: #fff; border-radius: 8px; border: 1px solid var(--batas);
+}
+.actions { display: flex; flex-direction: column; gap: 10px; }
+.btnRefresh {
+  width: 100%; padding: 13px;
+  background: var(--hijau-mid); color: #fff;
+  border: none; border-radius: 40px;
+  font-size: 14px; font-weight: 500;
+  font-family: var(--font-b); cursor: pointer;
+  transition: all 0.2s;
+}
+.btnRefresh:hover { background: var(--hijau-aksen); }
+.btnLogout {
+  width: 100%; padding: 11px;
+  background: transparent; color: var(--abu);
+  border: 1px solid var(--batas); border-radius: 40px;
+  font-size: 13px; font-weight: 500;
+  font-family: var(--font-b); cursor: pointer;
+  transition: all 0.2s;
+}
+.btnLogout:hover { background: var(--batas); }
