@@ -20,7 +20,7 @@ export default function ArsipAnggota() {
   const [search, setSearch] = useState('');
   const [menuOpen, setMenuOpen] = useState(false);
   // Google Drive folder ID — isi dari link folder Google Drive organisasi
-  const DRIVE_FOLDER_URL = 'https://drive.google.com/drive/folders/YOUR_FOLDER_ID';
+  const DRIVE_FOLDER_URL = 'https://drive.google.com/drive/folders/17vVvda7ppcgtp35XRGOSdV_qx_C1E2ND';
 
   useEffect(() => {
     const load = async () => {
